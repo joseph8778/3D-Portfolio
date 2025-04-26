@@ -1,9 +1,15 @@
-import React from 'react';
+'use client'
+import React, { useState } from 'react';
 import MagicButton from './ui/MagicButton';
-import { FaLocationArrow } from 'react-icons/fa6';
 import { socialMedia } from '@/data';
+import { IoCopyOutline } from 'react-icons/io5';
 
 const Footer = () => {
+const [copied, setCopied] = useState(false);
+const handleCopy = () => {
+  navigator.clipboard.writeText('joseph8778@gmail.com');
+  setCopied(true)
+}
     return (
        <footer id='contact' className='w-full pb-10'>
 
@@ -11,18 +17,19 @@ const Footer = () => {
             <h1 className='heading lg:max-w-[45vw]'>
                 Ready to take <span className='text-purple'>your</span> digital presence to the next level?
             </h1>
-            <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out to me today and let&apos;s discus how i can help you achieve your goals.</p>
-            <a href="mailto:joseph8778@gmail.com">
-                <MagicButton
-                title={`Let's get in touch`}
-                icon={<FaLocationArrow/>}
-                position='right'
-                />
-            </a>
+            <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out today and let&apos;s discuss how I can help you achieve your goals.</p>
+
+            <MagicButton
+                    title={copied ? 'Email copied' : 'Copy my email'}
+                    icon={<IoCopyOutline/>}
+                    position="left"
+                    otherClasses="!bg-[#161a31]"
+                    handleClick={handleCopy}
+                    />
         </div>
 
         <div className='flex mt-16 md:flex-row flex-col justify-between items-center'> 
-            <p className='md:text-base text-sm md:font-normal font-light'>Copyright © 2024 Joseph F. Torres</p>
+            <p className='md:text-base text-sm md:font-normal font-light'>Copyright © 2025 Joseph F. Torres</p>
 
             <div className='flex items-center md:gap-3 gap-6 mt-5 md:mt-0'>
                 {socialMedia.map((profile) => (

@@ -99,7 +99,7 @@ const handleCopy = () => {
                 {id === 3 && (
                   <div className="flex gap-1 lg:gap-4 w-fit absolute -right-2 lg:-right-0">
                     <div className="flex flex-col gap-3 md:gap-3 lg:gap-5 lg:pt-6 ">
-                      {['HTML', 'CSS/Tailwind', 'Javascript'].map((item) => (
+                      {['NodeJS', 'Typescript', 'Javascript'].map((item) => (
                         <span key={item} className="py-2 lg:min-w-20 lg:py-2 lg:px-2 px-3 text-xs opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                           {item}
                         </span>
@@ -108,7 +108,7 @@ const handleCopy = () => {
                     </div>
                     <div className="flex flex-col gap-3 md:gap-3 lg:gap-5 lg:pt-3">
                       <span className="py-4 px-3 lg:py-4 lg:px-3 rounded-lg text-center bg-[#10132E]" />
-                      {['React', '3JS', 'GSAP'].map((item) => (
+                      {['NextJS', 'PostgreSQL', 'GSAP'].map((item) => (
                         <span key={item} className="py-2 min-w-20 lg:min-w-20 lg:py-2 lg:px-2 px-3  text-xs opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                           {item}
                         </span>

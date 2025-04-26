@@ -2,7 +2,7 @@
   "name": "fed_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://joseph8778.github.io/CinemaLibraryFinal",
+  "homepage": "https://joseph8778.github.io/repository-name",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
