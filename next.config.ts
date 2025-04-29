@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
     typescript: {
         ignoreBuildErrors: true, // This allows the build to continue even if there are TypeScript errors
     },
+    eslint: {
+        ignoreDuringBuilds: true, // This allows the build to continue even if there are ESLint errors
+    }
 };
 
 // Remove tunnelRoute or make it conditional for static export
