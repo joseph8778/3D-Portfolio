@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://joseph8778.github.io/CinemaLibraryFinal",
   "scripts": {
-    "install": "npm install --legacy-peer-deps",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
