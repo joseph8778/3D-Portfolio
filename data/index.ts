@@ -73,7 +73,7 @@ export const navItems = [
     {
       id: 1,
       title: "Skinstric AI - Ai Skin Analyzer",
-      des: "Have AI scan your skin and tell you everything from your ethnic background to the best creams and products for you.",
+      des: "Skin analysis web app. Connected to the OpenAI API and stored and displayed skin analysis and recommendation data.",
       img: "/skinstric.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
       link: "https://skinstric-jt-rdpp.vercel.app/",
@@ -81,7 +81,7 @@ export const navItems = [
     {
       id: 2,
       title: "Cinema Library - Movie Directory App",
-      des: "Find all your favorite Movies & TV shows in Cinema Library.",
+      des: "Created a media directory site with a custom built authenticator, beautiful interactive animations, and a shopping cart feature.",
       img: "/CinemaLibrary.png",
       iconLists: [, "/tail.svg",],
       link: "https://cinema-library-final.vercel.app/",
@@ -92,7 +92,15 @@ export const navItems = [
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "https://apple-clone-git-main-joseph8778s-projects.vercel.app/",
+    },
+    {
+      id: 4,
+      title: "Nail Portfolio/Shop Site",
+      des: "Created a portfolio site for a nail technician. Created 2 custom logos for her, showcased her work and created a shop w/ stripe.",
+      img: "/POL.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg",],
+      link: "http://paradiseoflove.site/",
     },
   ];
   

@@ -1,13 +1,12 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 
 const World = dynamic(() => import("./Globe").then((m) => m.World), {
   ssr: false,
 });
 
-export function GlobeDemo() {
+export default function GlobeDemo() {
   const globeConfig = {
     pointSize: 4,
     globeColor: "#062056",
