@@ -197,9 +197,11 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: 'https://github.com/joseph8778'
     },
     {
       id: 2,
       img: "/link.svg",
+      link: 'https://linkedin.com/in/joseph-torres-05278727a'
     },
   ];

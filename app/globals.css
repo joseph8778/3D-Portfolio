@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 120 10% 100%;
     --foreground: 240 10% 3.9%;
 
     --card: 0 0% 100%;
@@ -36,7 +36,7 @@
   }
 
   .dark {
-    --background: 240 10% 3.9%;
+    --background: 140 10% 40%;
     --foreground: 0 0% 98%;
 
     --card: 240 10% 3.9%;
@@ -84,6 +84,6 @@
   }
 
   .black-gradient {
-    background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
+    background: linear-gradient(90deg, #d85d15 0%, #d6621a 100%);
   }
 }
