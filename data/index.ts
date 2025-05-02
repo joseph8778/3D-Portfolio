@@ -83,7 +83,7 @@ export const navItems = [
       title: "Cinema Library - Movie Directory App",
       des: "Created a media directory site with a custom built authenticator, beautiful interactive animations, and a shopping cart feature.",
       img: "/CinemaLibrary.png",
-      iconLists: [, "/tail.svg",],
+      iconLists: [, "/tail.svg", "/re.svg"],
       link: "https://cinema-library-final.vercel.app/",
     },
     {
@@ -99,7 +99,7 @@ export const navItems = [
       title: "Nail Portfolio/Shop Site",
       des: "Created a portfolio site for a nail technician. Created 2 custom logos for her, showcased her work and created a shop w/ stripe.",
       img: "/POL.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg",],
+      iconLists: ["/re.svg"],
       link: "http://paradiseoflove.site/",
     },
   ];
